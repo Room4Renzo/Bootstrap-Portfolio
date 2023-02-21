@@ -14,10 +14,14 @@ nav a {
 p {
     font-size: larger;
 }
-#title-banner {
-margin-top: 2%;
+#title-banner{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    
 }
 
-#cards {
+
+#cards,
+#skills {
     margin-top: 2%;
 }
