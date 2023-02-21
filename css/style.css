@@ -1,4 +1,23 @@
-.card {
-    padding-top: 10px;
+footer {
+    margin-left: 37%;
 }
 
+nav a {
+    text-decoration-line: underline;
+    color: white;
+}
+
+.card-body {
+    background-color: darkgray;
+}
+
+p {
+    font-size: larger;
+}
+#title-banner {
+margin-top: 2%;
+}
+
+#cards {
+    margin-top: 2%;
+}
