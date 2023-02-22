@@ -11,15 +11,40 @@
 </head>
 
 <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg bg-primary text-white">
+    <nav class="navbar h-100 navbar-expand-lg bg-primary text-white">
         <div class="container-fluid">
-            <a class="navbar-brand link-light" href="https://github.com/Room4Renzo">Lorenzo Francis-Walker</a>
+            <a class="navbar-brand link-light fs-2" href="https://github.com/Room4Renzo">Lorenzo Francis-Walker</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse fs-3 m-3 d-flex flex-row-reverse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link-light bg-primary" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark btn-primary">
+                            <li><a class="dropdown-item link-info" href="#">Blackjack Game</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item link-info" href="#">Weather Dashboard</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item link-info" href="#">Code Quiz</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item link-info" href="#">New York Times Search</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item link-info" href="#">Password Generator</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item link-info" href="#">CSS Cheat Sheet</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item link-info" href="#">Rock Paper Scissors</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item link-info" href="#">CSS Portfolio</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item link-info" href="#">Study Guide</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active link-light" aria-current="page" href="#">About</a>
                     </li>
@@ -28,23 +53,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link-light" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle link-light bg-primary" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Projects
-                        </a>
-                        <ul class="dropdown-menu bg-primary">
-                            <li><a class="dropdown-item link-light" href="#">Blackjack Game</a></li>
-                            <li><a class="dropdown-item link-light" href="#">Weather Dashboard</a></li>
-                            <li><a class="dropdown-item link-light" href="#">Code Quiz</a></li>
-                            <li><a class="dropdown-item link-light" href="#">New York Times Search</a></li>
-                            <li><a class="dropdown-item link-light" href="#">Password Generator</a></li>
-                            <li><a class="dropdown-item link-light" href="#">CSS Cheat Sheet</a></li>
-                            <li><a class="dropdown-item link-light" href="#">Rock Paper Scissors</a></li>
-                            <li><a class="dropdown-item link-light" href="#">CSS Portfolio</a></li>
-                            <li><a class="dropdown-item link-light" href="#">Study Guide</a></li>
-                        </ul>
                     </li>
                 </ul>
                 <!-- <form class="d-flex" role="search">
@@ -55,15 +63,15 @@
         </div>
     </nav>
 
-    <div class="bg-primary text-white border-2 rounded-3 container col-12 justify-content-center g-2 p-2"
+    <div class="bg-dark text-white border-2 rounded-3 container col-12 justify-content-center g-2 p-2"
         id="title-banner">
 
         <div class="row">
 
 
             <div class="col-4">
-                <img class="d-block mx-auto" id="profile-picture" src="./images/Profile Picture.png">
-                <h3 class="justify-content-center align-content-center d-block text-center fs-1">About Me:</h3>
+                <img class="d-block mx-auto" id="profile-picture" src="./images/job smile small.png">
+                <!-- <h3 class="justify-content-center align-content-center d-block text-center fs-1">About Me:</h3> -->
             </div>
 
             <div class="col-8 justify-content-end">
@@ -130,9 +138,8 @@
                     <img src="./images/NYTimes.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">NY Times Search</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                        <p class="card-text">A simple application using the New York Times API that can search and
+                            display articles based on user search</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -142,9 +149,8 @@
                     <img src="./images/PasswordGen.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Password Generator</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                        <p class="card-text">A simple application that generates a random password on click, containing
+                            character types chosen by the user</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -154,9 +160,8 @@
                     <img src="./images/Revision.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">CSS Cheat Sheet</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                        <p class="card-text">A single page, with short examples of alignment using flexbox with visual
+                            examples</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -172,9 +177,8 @@
                     <img src="./images/RPS.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Rock, Paper, Scissors</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                        <p class="card-text">A simple browser application that allows a user to play rock paper scissors
+                            against a random generator</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -184,9 +188,8 @@
                     <img src="./images/Portfolio.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">CSS Portfolio</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                        <p class="card-text">A simple, single page personal portolio made using HTML and CSS, displaying
+                            examples of previous work</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -196,9 +199,8 @@
                     <img src="./images/Prework.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Prework Study Guide</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                        <p class="card-text">A basic study guide with tips and reminders for revision covering
+                            JavaScript, CSS and git</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -206,29 +208,46 @@
         </div>
     </div>
 
-    <div class="bg-primary text-white border-2 rounded-3 container col-12 justify-content-center g-2 p-2" id="skills">
+    <div class="bg-dark text-white border-2 rounded-3 container col-12 justify-content-center g-2 p-2" id="skills">
         <div class="row">
             <div class="col-3">
-                <h3 class="justify-content-center align-content-center d-block text-center fs-1">Skills
-                    gained:</h3>
+                <h3 class="justify-content-center align-content-center d-block text-center fs-1">Skills and
+                    proficiencies gained:</h3>
             </div>
 
-            <div class="col-9 justify-content-end">
+            <div class="col-2 justify-content-end">
                 <ul>
-                    <li>Lorenzo</li>
-                    <li>Lorenzo</li>
-                    <li>Lorenzo</li>
-                    <li>Lorenzo</li>
-                    <li>Lorenzo</li>
-                    <li>Lorenzo</li>
+                    <li>HTML & CSS</li>
+                    <li>Bootsrap</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Ajax</li>
                 </ul>
+            </div>
+            <div class="col-2 justify-content-end">
+                <ul>
+                    <li>APIs</li>
+                    <li>jQuery</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="col-5 justify-content-end">
+                <p class="text-center">I am currently studying for certification as a front end web developer, and will
+                    be updating this page with
+                    more projects as I complete them</p>
             </div>
         </div>
     </div>
+    </div>
 
 
-    <div class="container-fluid d-flex p-2 justify-content-evenly bg-dark text-primary border-2 rounded-3" id="contact">
-        <p class="g-5 m-4"> Contact</p>
+    <div class="container-fluid d-flex p-2 justify-content-evenly bg-dark mt-2 text-primary border-2 rounded-3" id="contact">
+        <p class="g-5 m-4 fs-3"> Contact</p>
         <p class="g-5 m-4"> Github:
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github"
                 viewBox="0 0 16 16">
@@ -256,7 +275,7 @@
         </p>
     </div>
 
-    <div class="container-fluid bg-dark text-primary border-2 rounded-3">
+    <div class="container-fluid bg-dark text-primary border-2 rounded-3 mt-3">
         <footer class="justify-content-center">
             <p>Created with care by Lorenzo Francis-Walker</p>
         </footer>
